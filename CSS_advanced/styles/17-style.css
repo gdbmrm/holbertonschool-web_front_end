@@ -371,7 +371,7 @@ a[href] {
     color: var(--text-color);
     text-decoration: none;
 }
-
+/* a classes */
 a:visited {
     font-style: italic;
 }
@@ -383,7 +383,7 @@ a:hover {
 a:active {
     background-color: var(--color-light-grey);
 }
-
+/**/
 .visually-hidden {
     display: none;
 
@@ -392,36 +392,23 @@ a:active {
 .card-category {
     color: var(--color-primary);
 }
-
+/* section classes */
 .section {
     padding: var(--section-padding);
-    padding-left: var(--section-padding);
-    padding-right: var(--section-padding);
-    padding-top: var(--section-padding);
-    padding-bottom: var(--section-padding);
 }
 
 .section-header {
     text-align: var(--section-header-align);
-    padding-left: var(--section-header-padding);
-    padding-right: var(--section-header-padding);
-    padding-top: var(--section-header-padding);
-    padding-bottom: var(--section-header-padding);
+    padding: var(--section-header-padding);
 }
 
 .section-body {
-    padding-left: var(--section-body-padding);
-    padding-right: var(--section-body-padding);
-    padding-top: var(--section-body-padding);
-    padding-bottom: var(--section-body-padding);
+    padding: var(--section-body-padding);
 }
 
 .section-footer {
     text-align: var(--section-footer-align);
-    padding-left: var(--section-footer-padding);
-    padding-right: var(--section-footer-padding);
-    padding-top: var(--section-footer-padding);
-    padding-bottom: var(--section-footer-padding);
+    padding: var(--section-footer-padding);
 }
 .section-title {
     font-family: var(--font-family-title);
@@ -438,7 +425,7 @@ a:active {
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
 }
-
+/**/
 .container {
     width: 960px;
     margin-left: auto;
@@ -475,15 +462,12 @@ a:active {
     --section-footer-align: center;
     --footer-padding: 5rem 0 1rem;
 }
-
+/* styling heading */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
 }
 
 .footer {
-    padding-left: var(--footer-padding);
-    padding-right: var(--footer-padding);
-    padding-top: var(--footer-padding);
-    padding-bottom: var(--footer-padding);
+    padding: var(--footer-padding);
 }
