@@ -11,9 +11,21 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {
+a[href] {
     color: var(--text-color);
     text-decoration: none;
+}
+
+a:visited {
+    font-style: italic;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
@@ -33,7 +45,7 @@ a {
     font-family: var(--font-family-title);
     font-size: var(--font-size-xx-large);
     font-weight: var(--font-weight-bold);
-    margin: var(--section-title-margin);
+    text-align: var(--section-title-margin);
     color: var(--section-title-color)
 
 }
