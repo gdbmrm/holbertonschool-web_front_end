@@ -437,10 +437,7 @@ a:active {
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-    margin-top: var(--section-tagline-margin);
-    margin-bottom: var(--section-tagline-margin);
-    margin-left: var(--section-tagline-margin);
-    margin-right: var(--section-tagline-margin);
+    margin: var(--section-tagline-margin);
 }
 
 .container {
@@ -450,56 +447,49 @@ a:active {
 }
 
 .navbar-menu {
-    float: right;
+  float: right;
 }
 
 .nav {
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    list-style: none;
-    text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
 .nav .nav-item {
-    font-family: var(--nav-item-font-family);
-    font-weight: var(--nav-item-font-weight);
-    font-size: var(--nav-item-font-size);
-    word-spacing: var(--nav-item-letter-spacing);
-    display: var(--nav-item-display);
-    margin-top: var(--nav-item-margin);
-    margin-left: var(--nav-item-margin);
-    margin-right: var(--nav-item-margin);
-    margin-bottom: var(--nav-item-margin);
+  font-family: var(--nav-item-font-family);
+  font-weight: var(--nav-item-font-weight);
+  font-size: var(--nav-item-font-size);
+  letter-spacing: var(--nav-item-letter-spacing);
+  display: var(--nav-item-display);
+  margin: var(--nav-item-margin);
 }
 
 .nav .nav-link {
-    display: block;
-    padding: 0.5rem 1rem;
+  display: block;
+  padding: 0.5rem 1rem;
 }
 
 .nav-link:hover {
-    color: var(--nav-item-link-hover);
+  color: var(--nav-item-link-hover);
 }
 
 ul.row {
-    margin-top: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-left: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
-    padding-top: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .col-1-3 {
     width: 33.33%;
+    float: left;
+    padding: 0.5rem 0.5rem;
+}
+
+.col-1-3 {
+  width: 50%;
+  float: left;
+  padding: 0.5rem 0.5rem;
 }
 
 :root {
@@ -544,6 +534,17 @@ ul.row {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
+}
+
+.footer-copyright {
+  margin: 0;
+  font-size: var(--font-size-small);
+  color: var(--text-color)
+}
+
+ul.footer {
+  text-align: right;
+
 }
 
 .footer {
