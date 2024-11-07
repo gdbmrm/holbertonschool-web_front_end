@@ -394,7 +394,23 @@
   .card-category {
     color: var(--color-primary);
   }
+
+  card-title.card-services {
+    margin: 0;
+  }
   
+  a.card-services {
+    display: block;
+    padding: 2rem;
+    background-color: var(--color-light-grey);
+  }
+
+  a.card-services:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
+  }
+
   .section {
     padding: var(--section-padding);
   }
@@ -482,7 +498,7 @@
   .col-1-2 {
     width: 50%;
   }
-
+  
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
@@ -499,22 +515,11 @@
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
   }
-
-  .social-link {
-    display: block;
-  }
-
-  .social-link > svg {
-    fill: var(--text-color);
-  }
+  
   
   .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
-    color: var(--text-color);
-  }
-
-  .footer-adress {
     color: var(--text-color);
   }
   
