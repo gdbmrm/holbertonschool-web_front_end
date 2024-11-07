@@ -493,6 +493,12 @@ ul.row {
   padding: 0.5rem 0.5rem;
 }
 
+.row {
+    display: table-row;
+    clear: both;
+    width: 100%;
+}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
