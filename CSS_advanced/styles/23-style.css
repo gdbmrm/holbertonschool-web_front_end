@@ -499,11 +499,22 @@
     --section-title-color: var(--color-white);
     background-color: var(--color-black);
   }
-  
+
+  .social-link {
+    display: block;
+  }
+
+  .social-link > svg {
+    fill: var(--text-color);
+  }
   
   .footer-copyright {
     margin: 0;
     font-size: var(--font-size-small);
+    color: var(--text-color);
+  }
+
+  .footer-adress {
     color: var(--text-color);
   }
   
@@ -514,7 +525,7 @@
   .footer {
     padding: var(--footer-padding);
   }
-  
+
   :root {
     --color-primary: #d73953;
     --color-black: #090909;
