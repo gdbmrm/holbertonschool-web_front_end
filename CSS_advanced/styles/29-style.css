@@ -539,7 +539,7 @@
   }
 
   .nav .nav-link::before {
-    content: none;
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -548,7 +548,7 @@
     height: 0.2rem;
   }
 
-  .nav .nav-item:hover .nav-link::before e{
+  .nav .nav-item:hover .nav-link::before{
     background-color: var(--color-primary);
     width: 100%;
   }
